@@ -19,5 +19,5 @@ int main() {
     // Output the sum of x and y to the console.
     cout << "Sum of x and y: " << x + y;
 
-    return 0;  // Indicate successful completion of the program.
+    return 0; 
 }
