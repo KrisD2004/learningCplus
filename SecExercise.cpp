@@ -10,6 +10,7 @@ int main() {
     int Fahrenheit;
     
     // Read the user input for the Fahrenheit temperature
+    //the entered number from the user is stored in farenheit 
     cin >> Fahrenheit;
 
     // Convert Fahrenheit to Celsius using the conversion formula

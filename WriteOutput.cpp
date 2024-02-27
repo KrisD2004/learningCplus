@@ -1,22 +1,21 @@
 #include <iostream>
 
-// This program demonstrates different ways to write output to the console
+// different ways to write output to console
 
-// The 'using namespace std;' directive allows using elements from the 'std' namespace without explicitly specifying it
-using namespace std;
+using namespace std; // The 'using namespace std;' directive allows using elements from the 'std' namespace without explicitly specifying it
 
-int main() {
-    // Declare and initialize an integer variable 'x' with the value 10
-    int x = 10;
+int main()
+{
+    int x = 10; // Declare and initialize an integer variable 'x' with the value 10
 
-    // Declare and initialize another integer variable 'y' with the value 20
     int y = 20;
 
-    // This is an example of chaining multiple insertion operations together in a single line.
-    // It outputs the value of 'x' preceded by "x = " and the value of 'y' preceded by "y = " to the console.
+    //// This is an example of chaining multiple insertion operations together in a single line.
+    // It outputs the value of 'x' preceded by "x = " and the value of 'y' preceded by "y = " to the console. 
+    //endl is used only after the first line, so the output buffer is flushed after the first line is printed. The second line is then printed without immediately flushing the buffer again.
     cout << "x = " << x << endl
-         << "y = " << y;
+         << "y= " << y;
 
-    // Indicates successful program execution by returning 0 to the operating system
-    return 0;
+    return 0;     // Indicates successful program execution by returning 0 to the operating system
+
 }
