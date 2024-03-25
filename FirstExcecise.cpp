@@ -16,6 +16,7 @@ int main() {
 
     double totalTax = stateTax +  CountyTax;
     cout << "Total Tax: $ " << totalTax;
+    
 
 
     return 0;
